@@ -1,13 +1,13 @@
 import logo from './logo.svg';
-import './App.css';
 import {Button} from '@material-ui/core';
+import {Header} from './Header'
+ 
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      <Button variant="contained">Default</Button>
-      </header>
+      <Header/>
     </div>
   );
 }
